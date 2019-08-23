@@ -31,7 +31,7 @@ Xfce libraries and the Xfconf configuration backend.
 %setup -q
 
 %build
-%configure2_5x \
+%configure \
 	--disable-static \
 	--with-systemd \
 	--enable-locking
