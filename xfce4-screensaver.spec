@@ -19,6 +19,7 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(libxklavier)
 BuildRequires:  pkgconfig(libxfconf-0)
 BuildRequires:  pkgconfig(garcon-gtk3-1)
+BuildRequires:	pkgconfig(systemd)
 BuildRequires:	pam-devel
 
 %description
