@@ -51,16 +51,16 @@ Xfce libraries and the Xfconf configuration backend.
 %{_sysconfdir}/xdg/menus/xfce4-screensavers.menu
 %{_bindir}/xfce4-screensaver
 %{_bindir}/xfce4-screensaver-command
+%{_bindir}/xfce4-screensaver-configure
 %{_bindir}/xfce4-screensaver-preferences
-%{_libdir}/pkgconfig/xfce4-screensaver.pc
 %{_libexecdir}/xfce4-screensaver-dialog
 %{_libexecdir}/xfce4-screensaver-gl-helper
 %dir %{_libexecdir}/xfce4-screensaver/
 %{_libexecdir}/xfce4-screensaver/floaters
 %{_libexecdir}/xfce4-screensaver/popsquares
 %{_libexecdir}/xfce4-screensaver/slideshow
-%{_datadir}/applications/screensavers/personal-slideshow.desktop
-%{_datadir}/applications/screensavers/popsquares.desktop
+%{_datadir}/applications/screensavers/xfce-personal-slideshow.desktop
+%{_datadir}/applications/screensavers/xfce-popsquares.desktop
 %{_datadir}/applications/screensavers/xfce-floaters.desktop
 %{_datadir}/applications/xfce4-screensaver-preferences.desktop
 %{_datadir}/dbus-1/services/org.xfce.ScreenSaver.service
