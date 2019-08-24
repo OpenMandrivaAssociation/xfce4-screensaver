@@ -2,8 +2,8 @@
 
 Name:		xfce4-screensaver
 Summary:	Screen saver and locker for Xfce4
-Version:	0.1.1
-Release:	%mkrel 1
+Version:	0.1.8
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://git.xfce.org/apps/xfce4-screensaver/about/
@@ -12,6 +12,8 @@ BuildRequires:	intltool
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xscrnsaver)
 BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:	pkgconfig(libwnck-3.0)
+BuildRequires:  pkgconfig(libxfconf-0)
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(libxklavier)
