@@ -69,3 +69,5 @@ Xfce libraries and the Xfconf configuration backend.
 %{_mandir}/man1/xfce4-screensaver-preferences.1*
 %{_mandir}/man1/xfce4-screensaver.1*
 %{_datadir}/pixmaps/xfce-logo-white.svg
+%{_iconsdir}/hicolor/*x*/apps/org.xfce.ScreenSaver.png
+%{_iconsdir}/hicolor/scalable/apps/org.xfce.ScreenSaver.svg
