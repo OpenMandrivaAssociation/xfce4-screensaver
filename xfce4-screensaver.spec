@@ -3,7 +3,7 @@
 Name:		xfce4-screensaver
 Summary:	Screen saver and locker for Xfce4
 Version:	4.16.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://git.xfce.org/apps/xfce4-screensaver/about/
