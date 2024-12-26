@@ -2,7 +2,7 @@
 
 Name:		xfce4-screensaver
 Summary:	Screen saver and locker for Xfce4
-Version:	4.18.3
+Version:	4.18.4
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
@@ -31,7 +31,7 @@ Screensaver. It has been tightly integrated with the Xfce desktop, utilizing
 Xfce libraries and the Xfconf configuration backend.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure \
