@@ -2,12 +2,13 @@
 
 Name:		xfce4-screensaver
 Summary:	Screen saver and locker for Xfce4
-Version:	4.18.4
+Version:	4.20.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://git.xfce.org/apps/xfce4-screensaver/about/
 Source0:	https://archive.xfce.org/src/apps/xfce4-screensaver/%{url_ver}/xfce4-screensaver-%{version}.tar.bz2
+BuildRequires:	meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xscrnsaver)
@@ -34,14 +35,13 @@ Xfce libraries and the Xfconf configuration backend.
 %autosetup -p1
 
 %build
-%configure \
-	--disable-static \
-	--with-systemd \
-	--enable-locking
-%make_build
+%meson \
+	-Dx11=enabled \
+ 	-Dwayland=enabled
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %find_lang %{name}
 
