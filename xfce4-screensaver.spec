@@ -55,10 +55,10 @@ Xfce libraries and the Xfconf configuration backend.
 %{_sysconfdir}/xdg/menus/xfce4-screensavers.menu
 %{_bindir}/xfce4-screensaver
 %{_bindir}/xfce4-screensaver-command
-%{_bindir}/xfce4-screensaver-configure.py
+#{_bindir}/xfce4-screensaver-configure.py
 %{_bindir}/xfce4-screensaver-preferences
 %{_libexecdir}/xfce4-screensaver-dialog
-%{_libexecdir}/xfce4-screensaver-gl-helper
+#{_libexecdir}/xfce4-screensaver-gl-helper
 %dir %{_libexecdir}/xfce4-screensaver/
 %{_libexecdir}/xfce4-screensaver/floaters
 %{_libexecdir}/xfce4-screensaver/popsquares
