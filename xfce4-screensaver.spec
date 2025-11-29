@@ -11,6 +11,7 @@ Source0:	https://archive.xfce.org/src/apps/xfce4-screensaver/%{url_ver}/xfce4-sc
 BuildRequires:	meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(libwlembed-0)
+BuildRequires:	pkgconfig(libxfce4windowing-0)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xscrnsaver)
 BuildRequires:	pkgconfig(gtk+-3.0)
