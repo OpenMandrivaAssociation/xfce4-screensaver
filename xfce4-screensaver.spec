@@ -10,6 +10,7 @@ URL:		https://git.xfce.org/apps/xfce4-screensaver/about/
 Source0:	https://archive.xfce.org/src/apps/xfce4-screensaver/%{url_ver}/xfce4-screensaver-%{version}.tar.bz2
 BuildRequires:	meson
 BuildRequires:	intltool
+BuildRequires:	xmlto
 BuildRequires:	pkgconfig(libwlembed-0)
 BuildRequires:	pkgconfig(libxfce4windowing-0)
 BuildRequires:	pkgconfig(x11)
