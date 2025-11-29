@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(libxklavier)
 BuildRequires:  pkgconfig(libxfconf-0)
 BuildRequires:  pkgconfig(garcon-gtk3-1)
 BuildRequires:	pkgconfig(systemd)
+BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pam-devel
 
 %description
